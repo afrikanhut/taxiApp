@@ -1,0 +1,55 @@
+/* Hailo */
+
+body {
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	background-color: #ffbb00;
+	transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    -webkit-transition: background-color .5s ease-in-out; 
+	-o-transition: background-color .5s ease-in-out; 
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+	background-color: #ffbb00;
+}
+
+#front-cover {
+	margin-top: 300px;
+	width: 100%;
+	background-color: #000;
+}
+
+#logo {
+	width:200px;
+	height:200px;
+	max-width: 200px;
+	max-height:200px;
+	background-image:url('../img/hailo-logo-comp.png');
+    background-repeat: no-repeat;	
+	background-size:contain;
+	margin: 0 auto 0 auto;
+}
+
+#drivers {
+	text-align: center;
+}
+
+#eta {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
